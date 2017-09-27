@@ -38,9 +38,9 @@ for (var i = 0; i < scores.length; i++) {
 
    if (scores[i] < 61) {
        F += 1;
-   } else if (scores[i] < 71 && scores[i] > 60) {
+   } else if (scores[i] < 70 && scores[i] > 60) {
        D += 1;
-   } else if (scores[i] < 80 && scores[i] > 71) {
+   } else if (scores[i] < 80 && scores[i] > 70) {
    	   C += 1;
    } else if (scores[i] < 90 && scores[i] > 80) {
    	   B += 1;
